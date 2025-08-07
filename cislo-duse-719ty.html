@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magické číslo dne</title>
+<link rel="stylesheet" href="css/menu-footer.css" />
+  <link rel="stylesheet" href="css/cislo-duse-styl.css" />
+</head>
+<body>
+  <header>
+  <h1>Astral Zone</h1>
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav id="nav">
+    <a href="index.html">Domů</a>
+    <a href="tarot.html">Tarotové výklady</a>
+    <a href="horoskop.html">Horoskopy</a>
+    <a href="numerologie.html">Numerologie</a>
+    <a href="ritualy.html">Rituály</a>
+    <a href="predplatne.html" class="premium-link">Předplatné</a>
+  </nav>
+</header>
+
+<div class="box">
+  <h2>🔮 Magické číslo dne</h2>
+  <p>Zapiš prosím pouze své křestní jméno.</p>
+  <input type="text" id="jmeno" placeholder="Zadej své jméno" />
+
+  <p>Vyber své znamení zvěrokruhu</p>
+  <select id="znameni">
+    <option value="1">Beran</option>
+    <option value="2">Býk</option>
+    <option value="3">Blíženci</option>
+    <option value="4">Rak</option>
+    <option value="5">Lev</option>
+    <option value="6">Panna</option>
+    <option value="7">Váhy</option>
+    <option value="8">Štír</option>
+    <option value="9">Střelec</option>
+    <option value="10">Kozoroh</option>
+    <option value="11">Vodnář</option>
+    <option value="12">Ryby</option>
+  </select>
+
+  <p>Získat unikátní číslo dne lze pouze 1x denně.</p>
+  <button onclick="spocitejCislo()">Zjistit dnešní číslo</button>
+
+  <div id="vysledek"></div>
+</div>
+
+<div class="box">
+  <p>* Využíváním služeb uživatel souhlasí s Podmínkami užití.</p>
+</div>
+
+<footer>
+  © 2025 Astral Zone. Všechna práva vyhrazena.
+</footer>
+
+  <script src="js/cislo-duse-vyznamy.js"></script>
+  <script src="js/cislo-duse-script.js"></script>
+</body>
+</html>

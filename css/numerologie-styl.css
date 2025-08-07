@@ -1,0 +1,239 @@
+/* === Globální nastavení === */
+body {
+  background: #0d0618;
+  color: #d6b0ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem 2rem 1rem;
+  max-width: 1050px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.section-info {
+  background: rgba(157, 81, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px #5a1b81;
+  padding: 2rem 2rem; 
+  
+}
+
+.section-info h2 {
+  text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #c7a8f0;
+      text-shadow: 0 0 10px #9c4df4;
+}
+
+ .section p {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #d6b0ff;
+      line-height: 1.6;
+    }
+
+
+/* === ČÍSLO DNE === */
+.karta-dne-box {
+  background: rgba(119, 136, 255, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ff99;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.karta-dne-box h3 {
+  font-size: 2.2rem;
+  color: #00ff99;
+  text-shadow: 0 0 15px #00ff99;
+  margin-bottom: 2rem;
+}
+
+#cislo {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #00ff99;
+  text-shadow: 0 0 25px #00ff99;
+  margin: 1rem 0;
+}
+
+#vyznam {
+  font-size: 1.2rem;
+  color: #d0ffe5;
+  margin-top: 1rem;
+  min-height: 60px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button#generuj {
+  background: #b788ff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  color: #3a056b;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 15px #b787ff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+button#generuj:hover {
+  background-color: #9c4df4;
+  box-shadow: 0 0 30px #b787ff, 0 0 40px #9c4df4;
+}
+
+.sekce-zivotni-cislo {
+  background: rgba(157, 81, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px #5a1b81;
+  padding: 3rem 2rem;
+  max-width: 1050px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.sekce-zivotni-cislo h3 {
+  font-size: 2rem;
+  color: #c7a8f0;
+  text-shadow: 0 0 10px #9c4df4;
+  margin-bottom: 1rem;
+}
+
+.sekce-zivotni-cislo p {
+  font-size: 1.1rem;
+  color: #d6b0ff;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.tlacitko-zivotni {
+  background: #9c4df4;
+  color: #0d0618;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 0 15px #b787ff;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.tlacitko-zivotni:hover {
+  background: #b788ff;
+  box-shadow: 0 0 30px #b787ff, 0 0 40px #9c4df4;
+  color: #0d0618;
+}
+
+
+/* Zlatý box styl */
+    .subscribe {
+      background: rgba(18, 8, 38, 0.95);
+      margin: 0 2rem 3rem;
+      border-radius: 15px;
+      display: block;
+      overflow: hidden;
+      box-shadow: 0 0 30px #8e44ad;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .subscribe:hover {
+      background-color: rgba(18, 8, 38, 1);
+    }
+
+    .subscribe a {
+      display: block;
+      width: 100%;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    .subscribe .card-img {
+      width: 100%;
+      height: 200px;
+      border-radius: 15px 15px 0 0;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 1rem;
+    }
+
+    .subscribe-content {
+      padding: 1.5rem 2rem;
+      display: block;
+      text-align: center;
+    }
+
+    .subscribe-content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 15px #b788ff;
+      color: #fff;
+    }
+
+    .subscribe-content p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #c2a6ff;
+    }
+
+    .subscribe-content button {
+      background: #b788ff;
+      color: #3a056b;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-weight: 700;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: fit-content;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .subscribe-content button:hover {
+      background-color: #9c4df4;
+    }
+
+    .subscribe.subscribe-gold {
+      box-shadow: 0 0 30px #ffd700;
+    }
+
+    .subscribe.subscribe-gold .subscribe-content button {
+      background: #ffd700;
+      color: #3a056b;
+    }
+
+    .subscribe.subscribe-gold .subscribe-content button:hover {
+      background-color: #e6c200;
+    }
+
+    /* mezitext */
+    .mezitext {
+      margin: 3rem auto 2rem;
+      padding: 0 2rem;
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #d6b0ff;
+    }
+
+    .mezitext span {
+      color: #ffd700;
+      font-weight: bold;
+      text-shadow: 0 0 10px #ffd700;
+    }

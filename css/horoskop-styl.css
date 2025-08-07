@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0618;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: rgba(0, 255, 136, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 0 30px #00ff88;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #c7a8f0;
+  text-shadow: 0 0 12px #9c4df4;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #b788ff;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 0 8px #b788ff;
+}
+
+select {
+  background: rgba(18, 8, 38, 0.9);
+  color: #d6b0ff;
+  border: 1px solid #7e49a6;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px #7e49a6;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 2rem;
+  appearance: none;
+  cursor: pointer;
+}
+
+select option {
+  background: #0d0618;
+  color: #d6b0ff;
+}
+
+select:hover,
+select:focus {
+  box-shadow: 0 0 20px #b788ff;
+  background: rgba(30, 15, 65, 0.9);
+}
+
+button {
+  background: #b788ff;
+  color: #3a056b;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px #b787ff;
+  font-size: 1.1rem;
+  display: block;
+  margin: 0 auto 1.5rem;
+  max-width: 300px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #9c4df4;
+  box-shadow: 0 0 25px #b787ff, 0 0 35px #9c4df4;
+}
+
+#horoskop-vystup {
+  margin-top: 2rem;
+  text-align: center;
+  color: #d0ffe5;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* 🔮 NOVĚ STYLOVANÉ BLOKY HOROSKOPU */
+.horoskop-blok {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #9c4df4;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #9c4df4;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.horoskop-blok p:first-child {
+  margin: 0 0 0.6rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c7a8f0;
+  text-shadow: 0 0 8px #9c4df4;
+}
+
+.horoskop-blok p:last-child {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #d0ffe5;
+  line-height: 1.5;
+}
